@@ -214,6 +214,12 @@ li {
   }
 }
 
+@media (max-width: 996px) {
+  .lesson__content {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   h3 {
     font-size: 22px;
@@ -234,6 +240,10 @@ li {
 
   .page__item {
     margin-left: 10px;
+  }
+
+  .lesson__item {
+    font-size: 18px;
   }
 }
 
